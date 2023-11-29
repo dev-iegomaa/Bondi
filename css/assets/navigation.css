@@ -1,0 +1,45 @@
+/* Start Navigation Bar */
+
+nav {
+    background-color: var(--primary-color);
+    border-bottom: 1px solid #eaeaea21;
+}
+
+nav .navbar-toggler {
+    border-color: var(--white-color);
+}
+
+nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+nav button[aria-expanded="true"] {
+    border-color: var(--secondary-color);
+}
+
+nav .navbar-nav {
+    --bs-nav-link-padding-y: 0rem;
+}
+
+nav .navbar-nav .nav-link {
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    color: var(--white-color);
+}
+
+nav .navbar-nav .nav-link.active,
+nav .nav-link:focus,
+nav .nav-link:hover {
+    color: var(--secondary-color);
+}
+
+nav ul li:not(:last-of-type) {
+    padding-right: 15px;
+}
+
+nav .collapse svg {
+    color: var(--secondary-color);
+    border-left: 1px solid var(--secondary-color);
+}
+
+/* End Navigation Bar */

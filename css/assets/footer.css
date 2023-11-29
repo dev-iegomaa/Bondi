@@ -1,0 +1,87 @@
+/* Start Contact Section */
+
+#contact {
+    background-color: var(--secondary-color);
+}
+
+#contact input {
+    padding: 12px 20px 12px 3px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--white-color);
+    width: calc(100% - 110.68px);
+}
+
+#contact input::placeholder {
+    text-transform: capitalize;
+    font-style: italic;
+    color: var(--white-color);
+}
+
+#contact button {
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+    color: var(--dark-color);
+    transition-property: color, background-color;
+    transition-duration: .5s;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    color: var(--dark-color);
+    margin-left: -5px;
+}
+
+#contact button:hover {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+/* End Contact Section */
+
+/* Start Footer Section */
+
+footer {
+    background-color: var(--primary-color);
+}
+
+footer p span:first-child {
+    color: var(--secondary-color);
+}
+
+footer p span:last-child {
+    color: var(--third-color);
+}
+
+footer svg {
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+}
+
+footer .facebook:hover {
+    color: #1877f2;
+}
+
+footer .instagram:hover {
+    color: #fd1d1d;
+}
+
+footer .youtube:hover {
+    color: #ff0000;
+}
+
+footer .slack:hover {
+    color: #6ecadc;
+}
+
+footer .twitter:hover {
+    color: #1da1f2;
+}
+
+/* End Footer Section */

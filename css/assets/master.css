@@ -1,0 +1,34 @@
+:root {
+    --white-color: #fff;
+    --dark-color: #000;
+    --primary-color: #19283f;
+    --secondary-color: #33d1cc;
+    --third-color: #ffc400;
+    --section-bg-color: #eff7fa;
+    --border-radius: .25rem;
+    --transition-duration: .5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 120px;
+    height: 1px;
+    background-color: var(--secondary-color);
+}
+
